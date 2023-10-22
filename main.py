@@ -5,7 +5,8 @@ print('''1)XSS
          3)FILE UPLOAD
          4)Cloudflare Bypass IP
          5)LFI
-         6)Nmap Scanner and CMS Detector''')
+         6)Nmap Scanner and CMS Detector
+         7)CSRF''')
 choice = input(">>> ")
 if choice == '1':
   os.system('python xssfile.py')
@@ -19,3 +20,5 @@ if choice == '5':
   os.system('python lfi.py')
 if choice == '6':
   os.system('python detector.py')
+if choice == '7':
+  os.system('python csrf.py')
