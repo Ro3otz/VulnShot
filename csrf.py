@@ -15,7 +15,5 @@ for payload in payloads:
 
     if response.status_code == 200:
         print(Fore.GREEN + f"{Fore.GREEN}LFI Payload Successful: {full_url}")
-        else:
-            print(Fore.RED + f"{Fore.RED}Payload Unsuccessful: {full_url}")
     else:
         print(Fore.RED + f"{Fore.RED}Payload Unsuccessful: {full_url}")
